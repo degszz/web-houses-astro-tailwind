@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SwiperX from "../components/SwiperX.astro";
+---
+
+<Layout title="Coppola Pavese">
+	<div
+		class="w-full h-custom--calc md:h-custom-calc flex flex-col justify-center items-center"
+	>
+		<h1 class="text-3xl text-center">
+			Venta de Casas en Buenos Aires:<br />
+			<b class="text-pink-700">
+				COPPOLA PAVESE
+			</b>
+		</h1>
+		<p class="text-center max-w-[400px] py-1 text-sm">
+			Si estás proyectando tu vivienda familiar o próxima inversión, en
+			<b class="text-pink-700">Coppola & Pavese</b> podrás encontrar opciones EN VENTA o EN ALQUILER, y
+			un equipo de profesionales para asesorarte.
+		</p>
+		<div class="my-2.5">
+			<a
+				href="/houses/houses"
+				class="bg-pink-500 text-white hover:bg-pink-700 flex-row border justify-center cursor-pointer hover:bg-black-600 hover:text-white focus:ring-2 focus:outline-none focus:ring-black-300 font-medium rounded-lg px-2.5 py-1.5 text-center inline-flex items-center dark:focus:ring-black-300 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110 scale-90 gap-x-2 opacity-90 hover:opacity-100"
+				>CASAS</a
+			>
+			<a
+				href="/lotes/lotes"
+				class="bg-pink-500 text-white hover:bg-pink-700 flex-row border justify-center cursor-pointer hover:bg-black-600 hover:text-white focus:ring-2 focus:outline-none focus:ring-black-300 font-medium rounded-lg px-2.5 py-1.5 text-center inline-flex items-center dark:focus:ring-black-300 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110 scale-90 gap-x-2 opacity-90 hover:opacity-100"
+				>LOTES</a
+			>
+		</div>
+	</div>
+	<SwiperX/>
+</Layout>
